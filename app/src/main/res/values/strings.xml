@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Demo Time and Date App</string>
+    <string name="show"></string>
 </resources>
