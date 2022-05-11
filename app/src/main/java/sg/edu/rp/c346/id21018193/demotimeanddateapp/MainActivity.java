@@ -25,5 +25,6 @@ public class MainActivity extends AppCompatActivity {
         tp = findViewById(R.id.timePicker);
         btnDisplayDate = findViewById(R.id.buttonDisplayDate);
         btnDisplayTime = findViewById(R.id.buttonDisplayTime);
+        tvDisplay = findViewById(R.id.textViewDisplay);
     }
 }
