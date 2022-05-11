@@ -32,17 +32,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-
-
-
             }
         });
 
         btnDisplayDate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
 
             }
         });
