@@ -40,15 +40,22 @@
                         android:id="@+id/buttonDisplayDate"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="0"
+                        android:layout_weight="1"
                         android:text="Display Date" />
 
                     <Button
                         android:id="@+id/buttonDisplayTime"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="0"
+                        android:layout_weight="1"
                         android:text="Display Time" />
+
+                    <Button
+                        android:id="@+id/buttonReset"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Reset" />
 
                 </LinearLayout>
 

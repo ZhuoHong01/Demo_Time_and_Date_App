@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     TimePicker tp;
     Button btnDisplayDate;
     Button btnDisplayTime;
+    Button btnReset;
     TextView tvDisplay;
 
     @Override
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         tp = findViewById(R.id.timePicker);
         btnDisplayDate = findViewById(R.id.buttonDisplayDate);
         btnDisplayTime = findViewById(R.id.buttonDisplayTime);
+        btnReset = findViewById(R.id.buttonReset);
         tvDisplay = findViewById(R.id.textViewDisplay);
 
         btnDisplayTime.setOnClickListener(new View.OnClickListener() {
@@ -41,6 +43,16 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        btnReset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+
+            }
+        });
+
 
     }
 }
