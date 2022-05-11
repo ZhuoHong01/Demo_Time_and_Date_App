@@ -33,14 +33,14 @@ public class MainActivity extends AppCompatActivity {
         btnDisplayTime.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                String time = tp.toString();
             }
         });
 
         btnDisplayDate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                String date = dp.toString();
             }
         });
 
